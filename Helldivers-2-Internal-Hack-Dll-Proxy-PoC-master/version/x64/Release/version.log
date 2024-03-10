@@ -1,0 +1,63 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\Memory.h(124,49): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244: 'return': conversion from 'UINT64' to '_CHAR_TYPE_', possible loss of data
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         with
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         [
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:             _CHAR_TYPE_=CHAR
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         ]
+  (compiling source file '/dllmain.cpp')
+  C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(47,12):
+  while evaluating constexpr function 'XorStr'
+  C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(47,12):
+  	see reference to class template instantiation '_XORSTR_<CHAR,39>' being compiled
+  	C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(141,15):
+  	while compiling class template member function '_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,39>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)'
+          with
+          [
+              _CHAR_TYPE_=CHAR
+          ]
+  		C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(154,16):
+  		see the first reference to '_XORSTR_<CHAR,39>::CRYPT_CHAR' in '_XORSTR_<CHAR,39>::_XORSTR_'
+  		C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(106,14):
+  		see the first reference to '_XORSTR_<CHAR,39>::_XORSTR_' in '_XORSTR_<CHAR,39>::_XORSTR_'
+  		C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(172,2):
+  		see the first reference to '_XORSTR_<CHAR,39>::_XORSTR_' in 'XorStr'
+  
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(106,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(106,29): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244: 'return': conversion from 'UINT64' to '_CHAR_TYPE_', possible loss of data
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         with
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         [
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:             _CHAR_TYPE_=WCHAR
+C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21): warning C4244:         ]
+  (compiling source file '/dllmain.cpp')
+  C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(146,21):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(115,40):
+  	see reference to class template instantiation '_XORSTR_<WCHAR,9>' being compiled
+  	C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(141,15):
+  	while compiling class template member function '_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,9>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)'
+          with
+          [
+              _CHAR_TYPE_=WCHAR
+          ]
+  		C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\xorstr.hpp(121,18):
+  		see the first reference to '_XORSTR_<WCHAR,9>::CRYPT_CHAR' in '_XORSTR_<WCHAR,9>::String'
+  		C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\version\dllmain.cpp(115,22):
+  		see the first reference to '_XORSTR_<WCHAR,9>::String' in 'Payload'
+  
+     Creating library C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\x64\Release\version.lib and object C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\x64\Release\version.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 444 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  version.vcxproj -> C:\Users\Administrator\Desktop\stuff\HD2\Helldivers-2-Internal-Hack-Dll-Proxy-PoC-master\x64\Release\version.dll
