@@ -17,6 +17,6 @@
 .
 
 # Use [Alternate DLL]
-- Currently Undetected as of [April 1, 2024]
+- Currently Undetected as of [April 8, 2024]
   
 - Simply drag the DLL to (bin) folder same as helldivers2.exe and play, no need to use parameters or old exe!
